@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Provider } from "react-redux";
+import { ThemeProvider } from "styled-components";
+import { theme, GlobalStyle } from "./themes";
+
+import AplicationContext from "./contexts/aplicationContext";
+
+import Routing from "./Routing";
+import store from "./store";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(false);
+  const [cartList, setcartList] = useState([]);
+  const [sellectedItem, setSellectedItem] = useState({});
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Provider store={store}>
+      <ThemeProvider theme={theme.default}>
+        <AplicationContext.Provider
+          value={{
+            isLoading,
+            setIsLoading,
+            cartList,
+            setcartList,
+            sellectedItem,
+            setSellectedItem,
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <GlobalStyle />
+          <Routing />
+        </AplicationContext.Provider>
+      </ThemeProvider>
+    </Provider>
   );
 }
 
