@@ -28,7 +28,7 @@ This project was developed with the following technologies:
 - [ReactJS](https://react.dev/)
 - [React Router Dom](https://reactrouter.com/en/main)
 - [Styled Components](https://styled-components.com/)
-- [JSON Server](https://github.com/typicode/json-server)
+- [JSON Server](https://www.npmjs.com/package/json-server)
 - [Axios](https://axios-http.com/docs/intro)
 - [Redux](https://redux.js.org/introduction/getting-started)
 
