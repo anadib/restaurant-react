@@ -26,7 +26,7 @@ After users have made their selections, they are directed to the checkout page. 
 This project was developed with the following technologies:
 
 - [ReactJS](https://react.dev/)
-- [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
+- [React Router Dom](https://reactrouter.com/en/main)
 - [Styled Components](https://styled-components.com/)
 - [JSON Server](https://github.com/typicode/json-server)
 - [Axios](https://github.com/axios/axios)
