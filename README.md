@@ -29,7 +29,7 @@ This project was developed with the following technologies:
 - [React Router Dom](https://reactrouter.com/en/main)
 - [Styled Components](https://styled-components.com/)
 - [JSON Server](https://github.com/typicode/json-server)
-- [Axios](https://github.com/axios/axios)
+- [Axios](https://axios-http.com/docs/intro)
 - [Redux](https://redux.js.org/)
 
 ## :thought_balloon: Inspiration
