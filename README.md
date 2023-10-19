@@ -30,7 +30,7 @@ This project was developed with the following technologies:
 - [Styled Components](https://styled-components.com/)
 - [JSON Server](https://github.com/typicode/json-server)
 - [Axios](https://axios-http.com/docs/intro)
-- [Redux](https://redux.js.org/)
+- [Redux](https://redux.js.org/introduction/getting-started)
 
 ## :thought_balloon: Inspiration
 
